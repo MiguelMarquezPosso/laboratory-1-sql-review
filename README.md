@@ -1,5 +1,9 @@
 # Reporte de Preguntas de Negocio de Sakila
 
+## 👤 Información Personal
+Nombre: Miguel Ángel Márquez Posso
+GitHub: https://github.com/MiguelMarquezPosso
+
 ## 📋 Descripción
 Sakila es una cadena de tiendas de alquiler de películas en DVD. Similar a Netflix cuando se dedicaba al alquiler de DVD por correo.
 
@@ -50,7 +54,7 @@ lab01/
    podman compose down -v
    ```
 
-## Pregunta A  
+## ❓ Pregunta A  
 **¿Cuáles son las películas con más alquileres por categoría?**
 
 ### Consulta SQL
@@ -116,7 +120,7 @@ Los resultados identifican el título con mayor número de alquileres por catego
 
 ---
 
-## Pregunta B  
+## ❓ Pregunta B  
 **¿Cuáles son los clientes cuyo gasto total es superior al promedio?**
 
 ### Consulta SQL
@@ -437,7 +441,7 @@ El umbral promedio de gasto (~112.53) deja un grupo numeroso de clientes con may
 
 ---
 
-## Pregunta C  
+## ❓ Pregunta C  
 **¿Cuáles son las películas más alquiladas que el promedio de su categoría?**
 
 ### Consulta SQL
@@ -947,7 +951,7 @@ La comparación contra el promedio por categoría identifica títulos sobre el d
 
 ---
 
-## Pregunta D  
+## ❓ Pregunta D  
 **¿Cuáles son los clientes que alquilaron en el primer trimestre, pero no en el segundo?**
 
 ### Consulta SQL
