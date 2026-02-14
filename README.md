@@ -59,6 +59,8 @@ lab01/
 ¿Cuáles son las películas con más alquileres por categoría?
 
 ### Consulta SQL
+Utilicé Claude (Opus 4.6) como herramienta de apoyo para la formulación de la consulta. La solución final fue revisada, ajustada y validada personalmente.
+
 ```sql
 WITH alquileres_por_pelicula AS (
     SELECT
@@ -125,6 +127,8 @@ Los resultados identifican el título con mayor número de alquileres por catego
 ¿Cuáles son los clientes cuyo gasto total es superior al promedio?
 
 ### Consulta SQL
+Utilicé Claude (Opus 4.6) como herramienta de apoyo para la formulación de la consulta. La solución final fue revisada, ajustada y validada personalmente.
+
 ```sql
 WITH gasto_por_cliente AS (
     SELECT
@@ -446,6 +450,8 @@ El umbral promedio de gasto (~112.53) deja un grupo numeroso de clientes con may
 ¿Cuáles son las películas más alquiladas que el promedio de su categoría?
 
 ### Consulta SQL
+Utilicé Claude (Opus 4.6) como herramienta de apoyo para la formulación de la consulta. La solución final fue revisada, ajustada y validada personalmente.
+
 ```sql
 WITH alquileres_por_pelicula AS (
     SELECT
@@ -956,6 +962,8 @@ La comparación contra el promedio por categoría identifica títulos sobre el d
 ¿Cuáles son los clientes que alquilaron en el primer trimestre, pero no en el segundo?
 
 ### Consulta SQL
+Utilicé Claude (Opus 4.6) como herramienta de apoyo para la formulación de la consulta. La solución final fue revisada, ajustada y validada personalmente.
+
 ```sql
 SELECT
     c.first_name AS nombre,
