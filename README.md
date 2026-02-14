@@ -55,8 +55,8 @@ lab01/
    podman compose down -v
    ```
 
-## ❓ Pregunta A  
-**¿Cuáles son las películas con más alquileres por categoría?**
+## ❓ Pregunta A
+¿Cuáles son las películas con más alquileres por categoría?
 
 ### Consulta SQL
 ```sql
@@ -122,7 +122,7 @@ Los resultados identifican el título con mayor número de alquileres por catego
 ---
 
 ## ❓ Pregunta B  
-**¿Cuáles son los clientes cuyo gasto total es superior al promedio?**
+¿Cuáles son los clientes cuyo gasto total es superior al promedio?
 
 ### Consulta SQL
 ```sql
@@ -443,7 +443,7 @@ El umbral promedio de gasto (~112.53) deja un grupo numeroso de clientes con may
 ---
 
 ## ❓ Pregunta C  
-**¿Cuáles son las películas más alquiladas que el promedio de su categoría?**
+¿Cuáles son las películas más alquiladas que el promedio de su categoría?
 
 ### Consulta SQL
 ```sql
@@ -953,7 +953,7 @@ La comparación contra el promedio por categoría identifica títulos sobre el d
 ---
 
 ## ❓ Pregunta D  
-**¿Cuáles son los clientes que alquilaron en el primer trimestre, pero no en el segundo?**
+¿Cuáles son los clientes que alquilaron en el primer trimestre, pero no en el segundo?
 
 ### Consulta SQL
 ```sql
