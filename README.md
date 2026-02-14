@@ -2,6 +2,7 @@
 
 ## 👤 Información Personal
 Nombre: Miguel Ángel Márquez Posso
+
 GitHub: https://github.com/MiguelMarquezPosso
 
 ## 📋 Descripción
