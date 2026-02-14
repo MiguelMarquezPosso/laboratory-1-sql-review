@@ -1,4 +1,4 @@
-# Reporte de Preguntas de Negocio
+# Reporte de Preguntas de Negocio de Sakila
 
 ## 📋 Descripción
 Sakila es una cadena de tiendas de alquiler de películas en DVD. Similar a Netflix cuando se dedicaba al alquiler de DVD por correo.
