@@ -30,17 +30,22 @@ lab01/
    cd ruta\lab01
    ```
 
-3. Levantar los contenedores:
+3. Descargar la imagen oficial de Python 3.11 (versión slim) con Podman:
+   ```bash
+   podman pull docker.io/library/python:3.11-slim
+   ```
+
+4. Levantar los contenedores:
    ```bash
    podman compose up -d --build
    ```
    
-3. Abrir la app:
+5. Abrir la app:
    ```bash
    http://localhost:8000
    ```
    
-4. Si quieres detener todo:
+6. Si quieres detener todo:
    ```bash
    podman compose down -v
    ```
@@ -970,7 +975,7 @@ ORDER BY nombre ASC, apellido ASC;
 ### Resultados
 | nombre | apellido | correo |
 |---|---|---|
-| *(sin resultados)* |  |  |
+| *(sin resultados)* | *(sin resultados)* | *(sin resultados)* |
 
 ### Análisis
 No se encontró ningún cliente que haya alquilado en el primer trimestre y no en el segundo. Esto sugiere continuidad de actividad entre ambos periodos, o bien una distribución temporal de alquileres que no genera cortes claros entre trimestres.
