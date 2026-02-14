@@ -1,9 +1,34 @@
-# Reporte de consultas de negocio — Sakila (PostgreSQL)
+# Reporte de Preguntas de Negocio
 
-**Contexto:**  
 Sakila es una cadena de tiendas de alquiler de películas en DVD. Similar a Netflix cuando se dedicaba al alquiler de DVD por correo.
 
----
+## Integrantes
+- [Miguel Ángel  Posso](https://github.com/MiguelMarquezPosso)
+
+## Requisitos previos
+- Podman Desktop instalado y en ejecución
+- Puerto **5432** libre
+- Puerto **8080** libre
+
+## ⚙️ Configuración del entorno
+1. Clonar el repositorio:
+   ```bash
+   git clone https://github.com/tu_usuario/personapi-dotnet.git
+   cd personapi-dotnet
+   ```
+
+2. Crear y levantar los contenedores:
+   ```bash
+   docker compose up --build
+   ```
+
+3. Esperar a que SQL Server termine de iniciar. Luego acceder a la API en:
+   [http://localhost:8080/Home](http://localhost:8080/Home)
+
+4. Para detener los servicios:
+   ```bash
+   podman compose down -v
+   ```
 
 ## Pregunta A  
 **¿Cuáles son las películas con más alquileres por categoría?**
