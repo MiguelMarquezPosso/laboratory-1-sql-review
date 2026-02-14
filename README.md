@@ -1,31 +1,46 @@
 # Reporte de Preguntas de Negocio
 
+## 📋 Descripción
 Sakila es una cadena de tiendas de alquiler de películas en DVD. Similar a Netflix cuando se dedicaba al alquiler de DVD por correo.
 
-## Integrantes
-- [Miguel Ángel  Posso](https://github.com/MiguelMarquezPosso)
+## 📁 Estructura del Proyecto
+```
+lab01/
+├── compose.yaml
+├── db/init/
+│   ├── 01_schema.sql
+│   └── 02_data.sql
+├── web/
+│   ├── app.py
+│   ├── Dockerfile
+│   ├── model.py
+│   ├── queries.py
+│   └── requirements.py                 
+└── 
+```
 
-## Requisitos previos
-- Podman Desktop instalado y en ejecución
-- Puerto **5432** libre
-- Puerto **8080** libre
-
-## ⚙️ Configuración del entorno
+## 🎮 Ejecución con Podman
 1. Clonar el repositorio:
    ```bash
-   git clone https://github.com/tu_usuario/personapi-dotnet.git
-   cd personapi-dotnet
+   git clone https://github.com/MiguelMarquezPosso/laboratory-1-sql-review.git
    ```
-
-2. Crear y levantar los contenedores:
+   
+2. Ir a la carpeta del proyecto:
    ```bash
-   docker compose up --build
+   cd ruta\lab01
    ```
 
-3. Esperar a que SQL Server termine de iniciar. Luego acceder a la API en:
-   [http://localhost:8080/Home](http://localhost:8080/Home)
-
-4. Para detener los servicios:
+3. Levantar los contenedores:
+   ```bash
+   podman compose up -d --build
+   ```
+   
+3. Abrir la app:
+   ```bash
+   http://localhost:8000
+   ```
+   
+4. Si quieres detener todo:
    ```bash
    podman compose down -v
    ```
