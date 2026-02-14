@@ -35,7 +35,7 @@ lab01/
    cd ruta\lab01
    ```
 
-3. Descargar la imagen oficial de Python 3.11 (versión slim) con Podman:
+3. Descargar la imagen oficial de Python 3.11 (versión slim):
    ```bash
    podman pull docker.io/library/python:3.11-slim
    ```
