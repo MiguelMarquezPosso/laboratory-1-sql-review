@@ -15,7 +15,7 @@ lab01/
 │   ├── Dockerfile
 │   ├── model.py
 │   ├── queries.py
-│   └── requirements.py                 
+│   └── requirements.txt                 
 └── 
 ```
 
